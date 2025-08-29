@@ -5,13 +5,13 @@ export default function BoostBrokerageHero() {
             <section className="relative overflow-hidden bg-[#F2F6F9]">
                 <div className="mx-auto grid container grid-cols-12 items-center gap-6 px-6 pt-10 pb-10 md:gap-8 md:pt-14 md:pb-14">
                     <div className="col-span-12 md:col-span-7 lg:col-span-7 xl:col-span-7">
-                        <p className="text-[18px] font-semibold leading-[1.25] text-[#04417B]">
+                        <p className="text-[24px] font-semibold leading-[1.25] text-[#04417B]">
                             Switch Your Liquidity To GTC Prime Today &
                         </p>
-                        <h1 className="mt-[6px] text-[40px] md:text-[54px] lg:text-[58px] font-extrabold leading-[1.06] tracking-tight text-[#03A7D9]">
+                        <h1 className="mt-[6px] text-[50px] md:text-[58px] font-extrabold leading-[1.06] tracking-tight text-[#03A7D9]">
                             Boost Your Brokerage.
                         </h1>
-                        <p className="mt-6 max-w-[620px] text-[16px] md:text-[15px] leading-[22px] text-[#003651]">
+                        <p className="mt-6 max-w-[620px] text-[16px] md:text-[16px] leading-[22px] text-[#003651]">
                             On our call with you, we’ll walk you through everything step by step. No pressure. No
                             surprises. Just straight answers on how we can support your brokerage, from pricing and
                             liquidity to onboarding and setup. Total transparency, total clarity.
@@ -20,7 +20,7 @@ export default function BoostBrokerageHero() {
                         <div className="mt-6">
                             <a
                                 href="#switch"
-                                className="inline-flex items-center justify-center rounded-[10px] bg-[#ED8946] px-5 py-3 text-[14px] font-semibold text-white transition hover:bg-[#ED8946] hover:shadow-[0_8px_18px_rgba(230,125,0,0.30)] focus:outline-none focus:ring-2 focus:ring-[#ED8946] focus:ring-offset-2"
+                                className="inline-flex w-full md:w-fit items-center justify-center rounded-[10px] bg-[#ED8946] px-5 py-3 text-[14px] font-semibold text-white transition hover:bg-[#ED8946] hover:shadow-[0_8px_18px_rgba(230,125,0,0.30)] focus:outline-none focus:ring-2 focus:ring-[#ED8946] focus:ring-offset-2"
                             >
                                 Make the Switch
                                 <svg
@@ -40,11 +40,11 @@ export default function BoostBrokerageHero() {
                         </div>
                     </div>
 
-                    <div className=" col-span-12 h-[230px] md:col-span-5 md:h-[240px] lg:h-[260px]">
+                    <div className="md:static relative  col-span-12 h-[230px] md:col-span-5 md:h-[240px] lg:h-[260px]">
                         <img
                             src="/prime/cta-banner-end.png"
                             alt="Executive"
-                            className="absolute right-2 bottom-0 z-10 top-0 w-auto h-full"
+                            className="absolute right-2 -mr-[16px] sm:-mr-[25px] bottom-0 z-10 top-0 w-auto h-full"
                         />
 
                         <div className="absolute right-[270px] top-[22px] h-[18px] w-[18px] rounded-full bg-white/50" />
