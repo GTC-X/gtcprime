@@ -8,6 +8,7 @@ import { useState } from "react";
 import Meta from "../../components/Meta"
 const page = () => {
        const [isOpen, setIsOpen] = useState(false);
+
     return (
         <>
             <Meta title='Trusted Institutional Liquidity Provider | GTC Prime' description='Looking for a reliable institutional liquidity provider? GTC Prime delivers deep liquidity, ultra-fast execution & FIX API for brokers, funds & asset managers.'/>
@@ -15,7 +16,7 @@ const page = () => {
             <StartWithGTCPrime  setIsOpen={setIsOpen}   />
             <TrustedLiquidity  setIsOpen={setIsOpen}   />
             <BoostBrokerageHero  setIsOpen={setIsOpen}   />
-            <SliderModalPrime  setIsOpen={setIsOpen}  />
+            <SliderModalPrime  setIsOpen={setIsOpen} isOpen={isOpen} />
         </>
     )
 }

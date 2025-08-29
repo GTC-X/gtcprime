@@ -7,7 +7,7 @@ import { RxCross2 } from "react-icons/rx";
 
 
 
-const SliderModalPrime = ({ isOpen, onClose }) => {
+const SliderModalPrime = ({ isOpen, setIsOpen }) => {
     const t = useTranslations("partner.form"); // adjust namespace if needed
 
     return (
@@ -28,8 +28,9 @@ const SliderModalPrime = ({ isOpen, onClose }) => {
                     {/* Keep content above the overlay */}
                     <button
                         className=" text-2xl cursor-pointer absolute top-4 right-4 md:top-8 md:right-10 z-50 text-[#003651]"
-                        onClick={onClose}
-                        aria-label={t('closeAlt')}
+                        onClick={()=>{
+                            setIsOpen(false);
+                        }}
                     >
                         <RxCross2 className="w-6 h-6" />
                     </button>

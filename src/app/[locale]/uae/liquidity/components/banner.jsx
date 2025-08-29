@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function GTCPrimeHero() {
+export default function GTCPrimeHero({setIsOpen}) {
     const items = [
         { label: "Tier-1 Liquidity,\nAlways On", icon: "droplet" },
         { label: "Ultra-Low Latency\nExecution", icon: "arrow" },
@@ -95,6 +95,7 @@ export default function GTCPrimeHero() {
                         <div className="mt-7">
                             <a
                                 href="#book"
+                                onClick={() => setIsOpen(true)}
                                 className="inline-flex w-full sm:w-fit items-center justify-center rounded-[12px] bg-[#ED8946] px-5 py-3 text-[15px] font-semibold text-white shadow-md transition hover:bg-[#E67D00] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#FF8A00] focus:ring-offset-2"
                             >
                                 Book a Call

@@ -1,5 +1,5 @@
 import React from "react";
-export default function TrustedLiquidity({ country = "[COUNTRY]" }) {
+export default function TrustedLiquidity({ country = "[COUNTRY]" ,setIsOpen}) {
     const items = [
         { title: "Multi‑ Jurisdictional Regulation", icon: "shield", img: "/prime/card-icon1.svg" },
         { title: "No Hidden Terms", icon: "dot", img: "/prime/card-icon2.svg" },
@@ -57,6 +57,7 @@ export default function TrustedLiquidity({ country = "[COUNTRY]" }) {
                 <div className="mt-12">
                     <a
                         href="#book"
+                        onClick={() => setIsOpen(true)}
                         className="inline-flex  w-full sm:w-fit items-center justify-center rounded-[8px] bg-[#ED8946] px-5 py-3 text-[14px] font-semibold text-white shadow-md transition hover:bg-[#ED8946] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#ED8946] focus:ring-offset-2"
                     >
                         Book a Call
