@@ -62,7 +62,7 @@ export default function GTCPrimeHero() {
                     backgroundPosition: "center right",
                 }}
             />
-            <div className="container mx-auto px-4 md:px-6">
+            <div className="container mx-auto">
                 <div className="py-6 flex justify-center md:justify-center">
                     <img src="/prime/logo.png" alt="GTC Prime" className="h-12 w-auto" />
                 </div>
@@ -129,7 +129,7 @@ export default function GTCPrimeHero() {
                             </div>
 
                             <p
-                                className="mt-3 max-w-[170px] text-center text-[14px] md:text-[15px] font-medium leading-[18px] whitespace-pre-line break-all md:break-words"
+                                className="mt-3 max-w-[170px] text-center text-[14px] md:text-[15px] font-medium leading-[18px] whitespace-pre-line break-all md:break-words text-[#04417B]"
                                 style={{ hyphens: "auto" }}
                             >
                                 {it.label}

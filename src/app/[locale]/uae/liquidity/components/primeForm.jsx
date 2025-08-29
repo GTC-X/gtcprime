@@ -15,7 +15,6 @@ import { countryList } from "@/app/context/useCountriesDetails";
 // import { countries as phoneAllowed } from './defaultCountries';
 import Link from 'next/link';
 import { toast } from 'react-toastify';
-import Logo from '../../../../../public/prime/logo.png';
 
 const EmailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -187,7 +186,7 @@ const PrimeForm = ({ title = 'Register Now', subtitle = '' }) => {
             <div className="w-full max-w-100%">
                 <div className="relative w-full">
                     <img
-                        src={Logo.src}
+                        src='/prime/logo.png'
                         alt="GTCFX"
                         className="h-12 w-auto mx-auto"
                     />

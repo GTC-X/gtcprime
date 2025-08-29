@@ -2,10 +2,9 @@
 import { useTranslations } from 'next-intl'; // for localization
 import { useState } from "react";
 import Image from "next/image";
-import SuaForm from '../../components/MainForm';
-import { RxCross2 } from "react-icons/rx";
-import bgOverlay from '../../../../../public/prime/bg-overlay.webp';
 import PrimeForm from './primeForm';
+import { RxCross2 } from "react-icons/rx";
+
 
 
 const SliderModalPrime = ({ isOpen, onClose }) => {
@@ -19,9 +18,8 @@ const SliderModalPrime = ({ isOpen, onClose }) => {
                     aria-hidden="true"
                     className="fixed inset-x-0 bottom-0 z-10 pointer-events-none select-none"
                 >
-                    <div
-                        className="w-full h-[220px] md:h-[800px] bg-top bg-cover opacity-80"
-                        style={{ backgroundImage: `url(${bgOverlay.src})` }}
+                      <div
+                        className="w-full h-[220px] md:h-[800px] bg-top bg-cover opacity-80 bg-[url('/prime/bg-overlay.webp')]"
                     />
                 </div>
 
