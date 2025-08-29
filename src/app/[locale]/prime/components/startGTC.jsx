@@ -53,10 +53,8 @@ export default function StartWithGTCPrime() {
           </div>
 
           <div className="col-span-12 md:col-span-7 lg:col-span-8">
-            {/* 1 col on mobile, 2 cols from sm+ */}
             <div className="mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2">
               {cards.map((c, i) => {
-                // Stagger ONLY from md upwards so mobile remains a clean single column
                 const staggerDown = i === 1 ? "md:mt-[3.125rem]" : "";
                 const staggerUp = (i === 2 || i === 4) ? "md:-mt-[3.125rem]" : "";
 
@@ -65,7 +63,6 @@ export default function StartWithGTCPrime() {
                     key={i}
                     className={`${staggerDown} ${staggerUp} relative h-[12.75rem] sm:h-[13.5rem] md:h-[14.25rem] rounded-[18px] bg-gradient-to-b ${c.tint} p-[16px] sm:p-[18px] text-white shadow-[0_10px_20px_rgba(16,38,87,0.18)] overflow-hidden isolate`}
                   >
-                    {/* Background overlay — clipped inside rounded corners */}
                     <div
                       aria-hidden
                       className="pointer-events-none absolute inset-0 opacity-25 mix-blend-screen bg-no-repeat bg-cover bg-center"
