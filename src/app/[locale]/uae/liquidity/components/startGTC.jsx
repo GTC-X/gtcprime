@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function StartWithGTCPrime() {
+export default function StartWithGTCPrime({ setIsOpen }) {
   const cards = [
     {
       title: `<span class="font-[600]">Free Institutional Price Feed </span> to get you off the ground`,
@@ -86,9 +86,9 @@ export default function StartWithGTCPrime() {
           <p className="mx-auto text-[18px] sm:text-[20px] md:text-[22px] font-semibold text-[#04417B]">
             You don’t need to go it alone. GTC Prime helps you build it right from day one.
           </p>
-          <a
-            href="#book"
-            className="mt-5 inline-flex w-full md:w-fit items-center justify-center rounded-[12px] bg-[#04417B] px-5 py-3 text-[14px] font-semibold text-white shadow-md transition hover:bg-[#04417B] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#04417B] focus:ring-offset-2"
+          <button
+            onClick={() => setIsOpen(true)}
+            className="mt-5 inline-flex cursor-pointer w-full md:w-fit items-center justify-center rounded-[12px] bg-[#04417B] px-5 py-3 text-[14px] font-semibold text-white shadow-md transition hover:bg-[#04417B] hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#04417B] focus:ring-offset-2"
           >
             Book a Call
             <svg
@@ -104,7 +104,7 @@ export default function StartWithGTCPrime() {
                 clipRule="evenodd"
               />
             </svg>
-          </a>
+          </button>
         </div>
       </div>
     </section>

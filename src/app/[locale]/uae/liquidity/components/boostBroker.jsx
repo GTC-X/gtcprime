@@ -1,5 +1,5 @@
 import React from "react";
-export default function BoostBrokerageHero() {
+export default function BoostBrokerageHero({setIsOpen}) {
     return (
         <div className=" relative">
             <section className="relative overflow-hidden bg-[#F2F6F9]">
@@ -19,6 +19,7 @@ export default function BoostBrokerageHero() {
 
                         <div className="mt-6">
                             <a
+                            onClick={() => setIsOpen(true)}
                                 href="#switch"
                                 className="inline-flex w-full md:w-fit items-center justify-center rounded-[10px] bg-[#ED8946] px-5 py-3 text-[14px] font-semibold text-white transition hover:bg-[#ED8946] hover:shadow-[0_8px_18px_rgba(230,125,0,0.30)] focus:outline-none focus:ring-2 focus:ring-[#ED8946] focus:ring-offset-2"
                             >
