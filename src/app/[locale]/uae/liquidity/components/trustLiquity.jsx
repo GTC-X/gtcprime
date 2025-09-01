@@ -20,8 +20,8 @@ export default function TrustedLiquidity({ country = "[COUNTRY]" }) {
                 }}
             />
 
-            <div className="mx-auto relative z-10 container px-6 pt-14 pb-16 md:pt-16 md:pb-20 text-center">
-                <h2 className="mx-auto max-w-[860px] text-[28px] md:text-[38px] font-extrabold leading-[1.15] tracking-tight text-[#03A7D9]">
+            <div className="mx-auto max-w-6xl  relative z-10 container px-6 pt-14 pb-16 md:pt-16 md:pb-20 text-center">
+                <h2 className="text-[28px] md:text-[38px] font-extrabold leading-[1.15] tracking-tight text-[#03A7D9]">
                     Trusted Liquidity. Proven Reputation.
                 </h2>
 
@@ -29,7 +29,7 @@ export default function TrustedLiquidity({ country = "[COUNTRY]" }) {
                     When you're choosing a liquidity partner, trust matters. That's why brokers across {country} and beyond turn to GTC Prime, a regulated liquidity provider with a rock‑solid reputation and decades of combined industry expertise.
                 </p>
 
-                <div className="mx-auto mt-12 grid max-w-[980px] grid-cols-1 sm:grid-cols-2 gap-6 md:grid-cols-4 md:gap-6">
+                <div className="mt-12 grid  grid-cols-1 sm:grid-cols-2 gap-6 md:grid-cols-4 md:gap-6">
                     {items.map((it, idx) => (
                         <div
                             key={idx}

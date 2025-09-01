@@ -82,15 +82,15 @@ body {
   }
 
   @media (width >= 80rem) {
-    max-width: 80rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    max-width: 1380px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   @media (width >= 96rem) {
-    max-width: 80rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+   max-width: 1380px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
