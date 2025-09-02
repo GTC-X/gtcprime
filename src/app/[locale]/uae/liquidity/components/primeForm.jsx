@@ -164,7 +164,7 @@ const PrimeForm = ({ title = 'Register Now', subtitle = '' }) => {
             toast.success('Data inserted successfully');
             localStorage.setItem('user', JSON.stringify(data));
             formik.resetForm();
-            router.push('/prime/thank-you');
+            router.push('/uae/liquidity/thank-you');
         } catch (err) {
             toast.error('Error inserting data: ' + (err?.response?.data?.message || err.message));
         } finally {
