@@ -69,7 +69,7 @@ export default function GTCPrimeThankYou({
 
                             <div className="pt-10">
                                 <p className="text-[20px] font-semibold leading-[22px] text-[#04417B]">Having trouble?</p>
-                                <p className="mt-3 text-[16px]">Contact the GTC Prime team at +XXX XXXX XXXX or email{" "}
+                                <p className="mt-3 text-[16px]">Contact the GTC Prime team at +971 800 667788 or email{" "}
                                     <a href="mailto:support@gtcprime.com" className="underline decoration-[#04417B]/30 underline-offset-[3px] hover:text-[#04417B]">
                                         support@gtcprime.com
                                     </a>

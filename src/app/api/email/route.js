@@ -36,7 +36,7 @@ const generateEmailContent = (data) => {
             <tr><td style="border-top: 2px solid #e0e0e0; padding: 15px 0;"></td></tr>
             <tr>
               <td style="font-size:14px;color:#4D4D70;padding-bottom:10px;">
-                Dear ${first_name || "Client"},
+                Dear ${data?.first_name || "Client"},
               </td>
             </tr>
             <tr>
