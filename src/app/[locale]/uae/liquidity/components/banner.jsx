@@ -68,16 +68,17 @@ export default function GTCPrimeHero({setIsOpen}) {
                 </div>
                 <div className="grid grid-cols-12 items-center gap-8 md:gap-10 pt-10 md:pt-12">
                     <div className="col-span-12 lg:col-span-7 xl:col-span-6 text-center  md:text-left">
-                        <h1 className="font-extrabold leading-[1.05]  tracking-tight text-[#03A7D9] text-[70px] md:text-[70px] break-word md:break-normal">
-                            $8 PER MILLION
-                        </h1>
-
-                        <h2 className="mt-1 text-[#04417B] font-extrabold uppercase leading-11 text-[38px] break-word md:break-normal">
-                            Institutional Liquidity.
+                         <h2 className="mt-1 text-[#04417B] font-extrabold  text-4xl md:text-[60px] break-word md:break-normal leading-tight">
+                            Do You Need a
                         </h2>
 
+                        <h1 className="font-extrabold leading-[1.05] uppercase tracking-tight text-[#03A7D9] text-[40px] md:text-[60px] break-word md:break-normal">
+                            Liquidity Provider?
+                        </h1>
+
+                       
                         <p className="text-[28px] md:text-[30px] font-[300] text-[#5D6973] break-all md:break-normal">
-                            On Your Terms.
+                            Read on...  
                         </p>
 
                         <div className="-mr-[16px] sm:-mr-[25px]">
