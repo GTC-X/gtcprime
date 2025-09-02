@@ -63,7 +63,7 @@ export default function GTCPrimeHero({setIsOpen}) {
                 }}
             />
             <div className="container mx-auto">
-                <div className="py-6 flex justify-center md:justify-center">
+                <div className="py-3 flex justify-center md:justify-center">
                     <img src="/prime/logo.png" alt="GTC Prime" className="h-20 w-auto" />
                 </div>
                 <div className="grid grid-cols-12 items-center gap-8 md:gap-10 pt-10 md:pt-12">
