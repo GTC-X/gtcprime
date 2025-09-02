@@ -1,4 +1,5 @@
 "use client"
+import Meta from "@/app/[locale]/components/Meta";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
@@ -35,6 +36,8 @@ export default function GTCPrimeThankYou({
 
     if (!checked) return null; // Don't render anything until we've checked
     return (
+        <>
+      <Meta title='Thank You | GTC Prime' description='Thank you for showing interest in partnering with GTC Prime, a trusted institutional liquidity provider. We will be in touch shortly.'/>
         <section className="relative isolate overflow-hidden bg-white">
             <div
                 className="pointer-events-none hidden md:block absolute right-0 -top-[6%] h-full w-[650px] "
@@ -93,5 +96,6 @@ export default function GTCPrimeThankYou({
                 </div>
             </div>
         </section>
+          </>
     );
 }
